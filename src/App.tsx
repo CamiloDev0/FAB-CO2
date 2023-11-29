@@ -8,7 +8,7 @@ function App() {
   }
   const createFrameFAB = () => {
     return(
-      <iframe src="https://www.lifestylecalculator.com/doconomy" className="w-screen" onLoad={(e) => resizeIframe(e.target as HTMLIFrameElement)} ></iframe>
+      <iframe src="https://www.lifestylecalculator.com" className="w-screen" onLoad={(e) => resizeIframe(e.target as HTMLIFrameElement)} ></iframe>
     );
   }
   return (
