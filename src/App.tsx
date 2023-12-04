@@ -1,5 +1,3 @@
-import { useEffect } from 'react';
-
 import './App.css';
 
 function App() {
@@ -15,15 +13,15 @@ function App() {
     );
   }
   
-  useEffect(() => {
+  /* useEffect(() => {
     const interval = setInterval(() => {
       window.location.reload();
-    }, 180000);
+    }, 600000);
   
     return () => {
       clearInterval(interval);
     };
-  }, []);
+  }, []); */
 
   return (
     <div className="container">
