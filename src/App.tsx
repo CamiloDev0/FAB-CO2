@@ -18,7 +18,7 @@ function App() {
   useEffect(() => {
     const interval = setInterval(() => {
       window.location.reload();
-    }, 600000);
+    }, 360000);
   
     return () => {
       clearInterval(interval);
